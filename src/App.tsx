@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 
 function App() {
     const [jobs, setJobs] = useState(joblistings)
-    const [filter, setFilter] = useState<string[]>(['Frontend'])
+    const [filter, setFilter] = useState<string[]>([])
 
     useEffect(() => {
         setJobs(
